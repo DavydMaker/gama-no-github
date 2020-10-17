@@ -1,2 +1,4 @@
-# Gama no Github
-Conteúdo relevante sendo agregado e repassado da melhor forma e interação sempre sanando as dúvidas 😁!
+# Treinamento Gama Crop
+#### Treinamento Accademia Accenture para os selecionados
+
+Repositório com conteúdo desenvolvido nas aulas e que não tiverem seus próprios repositórios.
