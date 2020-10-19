@@ -20,3 +20,5 @@ function principal(onClick) {
         onClick(argumentos)
     }
 }
+
+principal(null)
