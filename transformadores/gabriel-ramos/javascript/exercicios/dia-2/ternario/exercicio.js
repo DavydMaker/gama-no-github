@@ -18,7 +18,11 @@
 
 let status = 'success';
 
-let message = (status === 'success') ? 'Usuário criado com sucesso' : ((status === 'warning') ? 'Usuário cadastrado, mas tivemos algum problema' : 'Ocorreu um erro ao cadastrar');
+const message = status === 'success'
+    ? 'Usuário criado com sucesso'
+    : status === 'warning'
+        ? 'Usuário cadastrado, mas tivemos algum problema'
+        : 'Ocorreu um erro ao cadastrar'
 
 console.log(message);
 
@@ -27,18 +31,15 @@ console.log(message);
 */
 
 function criarMensagemStatus(status) {
-    switch (status) {
-        case 'success':
-            return 'Usuário criado com sucesso';
-        case 'warning':
-            return 'Usuário cadastrado, mas tivemos algum problema'
-        case 'error':
-            return 'Ocorreu um erro ao cadastrar'
-        default:
-            break;
-    }
+    const message = status === 'success'
+        ? 'Usuário criado com sucesso'
+        : status === 'warning'
+            ? 'Usuário cadastrado, mas tivemos algum problema'
+            : status === 'error'
+                ? 'Ocorreu um erro ao cadastrar'
+                : undefined;
 
-    return message || "Sem status";
+    return message || 'Sem status';
 }
 
 
