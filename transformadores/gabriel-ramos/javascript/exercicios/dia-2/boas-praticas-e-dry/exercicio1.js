@@ -19,14 +19,16 @@
 */
 
 const nome = 'Gabriel';
-const age = 24;
+const idade = 24;
 const gatos = [
     'Loga',
     'Logan',
     'LeBeau'
 ];
 
-gatos.forEach(gato => console.log(gato));
+for (let i = 0; i < gatos.length; i++) {
+    console.log(gatos[i]);
+}
 
 console.log('Execução finalizada');
 console.log('Obrigado por participar');
