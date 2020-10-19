@@ -39,7 +39,7 @@ const CORES = {
 // exibirá a cor CORES.RED se o status for error
 
 const status = 'success';
-let corSelecionada = '';
+let corSelecionada;
 
 if (status == 'success') {
     corSelecionada = CORES.GREEN;
