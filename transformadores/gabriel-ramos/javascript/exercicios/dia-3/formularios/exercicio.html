@@ -1,0 +1,37 @@
+<!--
+    Na tag form abaixo, complete o código para conter:
+
+    >> 1 input do tipo texto;
+    >> 1 input do tipo email;
+    >> 1 input do tipo senha.
+    Todos os inputs devem possuir seus devidos placeholders.
+-->
+
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+
+<body>
+    <form name="cadastro" id="cadastro" action="enviar.html" method="POST">
+        <label for="username">Usuário:</label>
+        <input type="text" name="username" id="username" placeholder="Informe o nome de usuário" required />
+        <br />
+
+        <label for="password">Senha:</label>
+        <input type="password" name="password" id="password" placeholder="Informe a sua senha" required />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Informe seu email" required />
+        <br />
+
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>
