@@ -1,0 +1,3 @@
+### Qual a diferença entre dependências que estão listadas como dependencies e devDependencies em um arquivo package.json?
+
+Ambas estão relacionadas ao ambiente do projeto: `devDependencies` são dependências que estão ligadas ao ambiente de desenvolvimento (como ferramentas de teste, análise de código e qualidade) e já as `dependencies` são ferramentas necessárias para o projeto ser executado em um ambiente final (como produção).
